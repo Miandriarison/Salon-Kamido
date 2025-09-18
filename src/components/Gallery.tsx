@@ -6,85 +6,66 @@ const Gallery = () => {
 
   const images = [
     {
-      url: "https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "Coupe afro moderne",
-      category: "Coiffures"
-    },
-    {
-      url: "https://images.pexels.com/photos/3065209/pexels-photo-3065209.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "Intérieur du salon",
+      url: "images/1.webp",
+      title: "Salon professionnel",
       category: "Salon"
     },
     {
-      url: "https://images.pexels.com/photos/3738328/pexels-photo-3738328.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "Cheveux bouclés naturels",
-      category: "Coiffures"
-    },
-    {
-      url: "https://images.pexels.com/photos/3618810/pexels-photo-3618810.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "Station de coiffage",
+      url: "images/2.webp",
+      title: "Salon professionnel",
       category: "Salon"
     },
     {
-      url: "https://images.pexels.com/photos/3771118/pexels-photo-3771118.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "Coloration experte",
-      category: "Coiffures"
-    },
-    {
-      url: "https://images.pexels.com/photos/3618814/pexels-photo-3618814.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "Produits de qualité",
-      category: "Produits"
-    },
-    {
-      url: "https://images.pexels.com/photos/3771119/pexels-photo-3771119.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "Coiffure de mariage",
-      category: "Coiffures"
-    },
-    {
-      url: "https://images.pexels.com/photos/3771051/pexels-photo-3771051.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "Espace détente",
+      url: "images/3.webp",
+      title: "Salon professionnel",
       category: "Salon"
     },
     {
-      url: "https://images.pexels.com/photos/3738327/pexels-photo-3738327.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "Lissage professionnel",
-      category: "Coiffures"
-    },
-    {
-      url: "https://images.pexels.com/photos/3771682/pexels-photo-3771682.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "Soins capillaires",
-      category: "Produits"
-    },
-    {
-      url: "https://images.pexels.com/photos/3618820/pexels-photo-3618820.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "Coupe dégradée",
-      category: "Coiffures"
-    },
-    {
-      url: "https://images.pexels.com/photos/3771840/pexels-photo-3771840.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "Outils professionnels",
+      url: "images/4.webp",
+      title: "Salon professionnel",
       category: "Salon"
     },
     {
-      url: "https://images.pexels.com/photos/3771050/pexels-photo-3771050.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "Brushing parfait",
-      category: "Coiffures"
-    },
-    {
-      url: "https://images.pexels.com/photos/3738330/pexels-photo-3738330.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "Cheveux métissés",
-      category: "Coiffures"
-    },
-    {
-      url: "https://images.pexels.com/photos/3618813/pexels-photo-3618813.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "Huiles naturelles",
-      category: "Produits"
-    },
-    {
-      url: "https://images.pexels.com/photos/3771838/pexels-photo-3771838.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "Ambiance cosy",
+      url: "images/5.webp",
+      title: "Salon professionnel",
       category: "Salon"
-    }
+    },
+    {
+      url: "images/6.webp",
+      title: "Salon professionnel",
+      category: "Salon"
+    },
+    {
+      url: "images/7.webp",
+      title: "Salon professionnel",
+      category: "Salon"
+    },
+    {
+      url: "images/8.webp",
+      title: "Salon professionnel",
+      category: "Salon"
+    },
+    {
+      url: "images/9.webp",
+      title: "Salon professionnel",
+      category: "Salon"
+    },
+    {
+      url: "images/10.webp",
+      title: "Salon professionnel",
+      category: "Salon"
+    },
+    {
+      url: "images/11.webp",
+      title: "Salon professionnel",
+      category: "Salon"
+    },
+    {
+      url: "images/12.webp",
+      title: "Salon professionnel",
+      category: "Salon"
+    },
+ 
   ];
 
   const openModal = (index: number) => {
